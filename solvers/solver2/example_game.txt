@@ -1,0 +1,2308 @@
+ New turn. turns_left: 15
+_____________________________________________
+
+
+
+ Roll #1
+Values: [3, 3, 4, 5, 6]
+(expected?) scores:
+ {
+    "ones": "-1.472",
+    "small straight": "0",
+    "twos": "3.056",
+    "large straight": "4.583",
+    "yatzy": "6.533",
+    "four of a kind": "8.167",
+    "threes": "8.75",
+    "fours": "8.889",
+    "two pairs": "10.83",
+    "full house": "10.83",
+    "three of a kind": "10.89",
+    "fives": "11.11",
+    "one pair": "12",
+    "sixes": "13.33",
+    "chance": "23.75"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-5.417",
+    "ones": "-3.572",
+    "yatzy": "-3.467",
+    "full house": "-3.167",
+    "sixes": "-2.667",
+    "two pairs": "-2.167",
+    "fours": "-2.111",
+    "four of a kind": "-1.933",
+    "fives": "-1.889",
+    "chance": "-1.25",
+    "twos": "-1.044",
+    "threes": "0.75",
+    "three of a kind": "0.7889",
+    "one pair": "1"
+}
+weighted_diffs:
+ {
+    "yatzy": "-13.87",
+    "sixes": "-8",
+    "small straight": "-7",
+    "fours": "-6.333",
+    "four of a kind": "-5.8",
+    "fives": "-5.667",
+    "large straight": "-3.792",
+    "ones": "-3.572",
+    "full house": "-3.167",
+    "two pairs": "-2.167",
+    "twos": "-2.089",
+    "chance": "-0.625",
+    "one pair": "1",
+    "three of a kind": "1.578",
+    "threes": "2.25"
+}
+Values: [3, 3, 4, 5, 6]
+Saving: [3, 3]
+Aiming for: threes
+Expected value: 8.75
+'Weighted diff': 2.25
+
+
+
+ Roll #2
+Values: [3, 3, 3, 3, 6]
+(expected?) scores:
+ {
+    "ones": "-2.167",
+    "small straight": "0",
+    "large straight": "0",
+    "twos": "1.667",
+    "fours": "3.333",
+    "fives": "4.167",
+    "one pair": "8.333",
+    "two pairs": "8.333",
+    "full house": "8.333",
+    "three of a kind": "9",
+    "sixes": "10",
+    "yatzy": "10.42",
+    "four of a kind": "12",
+    "threes": "12.5",
+    "chance": "20"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-10",
+    "fives": "-8.833",
+    "fours": "-7.667",
+    "sixes": "-6",
+    "full house": "-5.667",
+    "chance": "-5",
+    "two pairs": "-4.667",
+    "ones": "-4.267",
+    "one pair": "-2.667",
+    "twos": "-2.433",
+    "three of a kind": "-1.1",
+    "yatzy": "0.4167",
+    "four of a kind": "1.9",
+    "threes": "4.5"
+}
+weighted_diffs:
+ {
+    "fives": "-26.5",
+    "fours": "-23",
+    "sixes": "-18",
+    "small straight": "-7",
+    "large straight": "-7",
+    "full house": "-6.8",
+    "twos": "-4.867",
+    "two pairs": "-4.667",
+    "ones": "-4.267",
+    "one pair": "-2.667",
+    "chance": "-2.5",
+    "three of a kind": "-1.1",
+    "yatzy": "0.4167",
+    "four of a kind": "2.28",
+    "threes": "13.5"
+}
+Values: [3, 3, 3, 3, 6]
+Saving: [3, 3, 3, 3]
+Aiming for: threes
+Expected value: 12.5
+'Weighted diff': 13.5
+
+
+
+ Roll #3
+Values: [3, 3, 3, 3, 4]
+(expected?) scores:
+ {
+    "ones": "0",
+    "twos": "0",
+    "fives": "0",
+    "sixes": "0",
+    "two pairs": "0",
+    "small straight": "0",
+    "large straight": "0",
+    "full house": "0",
+    "yatzy": "0",
+    "fours": "4",
+    "one pair": "6",
+    "three of a kind": "9",
+    "threes": "12",
+    "four of a kind": "12",
+    "chance": "16"
+}
+diffs:
+ {
+    "sixes": "-16",
+    "full house": "-14",
+    "fives": "-13",
+    "two pairs": "-13",
+    "chance": "-9",
+    "fours": "-7",
+    "one pair": "-5",
+    "twos": "-4.1",
+    "ones": "-2.1",
+    "three of a kind": "-1.1",
+    "yatzy": "-0.2",
+    "large straight": "-0.12",
+    "small straight": "-0.11",
+    "four of a kind": "1.9",
+    "threes": "4"
+}
+weighted_diffs:
+ {
+    "sixes": "-48",
+    "fives": "-39",
+    "fours": "-21",
+    "full house": "-21",
+    "two pairs": "-13",
+    "twos": "-8.2",
+    "one pair": "-5",
+    "chance": "-4.5",
+    "ones": "-2.1",
+    "three of a kind": "-1.1",
+    "yatzy": "-0.2",
+    "large straight": "-0.18",
+    "small straight": "-0.165",
+    "four of a kind": "2.85",
+    "threes": "12"
+}
+Current scoreboard:
+ {
+    "ones": null,
+    "twos": null,
+    "threes": null,
+    "fours": null,
+    "fives": null,
+    "sixes": null,
+    "one pair": null,
+    "two pairs": null,
+    "three of a kind": null,
+    "four of a kind": null,
+    "small straight": null,
+    "large straight": null,
+    "full house": null,
+    "chance": null,
+    "yatzy": null
+}
+Upper section 'status': 0
+Final values: [3, 3, 3, 3, 4]
+final_choice: {'threes': 12}
+
+
+
+
+
+ New turn. turns_left: 14
+_____________________________________________
+
+
+
+ Roll #1
+Values: [1, 2, 4, 4, 5]
+(expected?) scores:
+ {
+    "ones": "-0.7778",
+    "large straight": "0",
+    "small straight": "3.437",
+    "twos": "4.444",
+    "yatzy": "7.2",
+    "four of a kind": "9",
+    "sixes": "9.167",
+    "one pair": "10",
+    "fives": "11.11",
+    "fours": "11.67",
+    "three of a kind": "12",
+    "two pairs": "13.43",
+    "full house": "13.43",
+    "chance": "22"
+}
+diffs:
+ {
+    "large straight": "-10",
+    "sixes": "-6.833",
+    "small straight": "-6.563",
+    "chance": "-3",
+    "ones": "-2.878",
+    "yatzy": "-2.8",
+    "fives": "-1.889",
+    "four of a kind": "-1.1",
+    "one pair": "-1",
+    "full house": "-0.5667",
+    "twos": "0.3444",
+    "two pairs": "0.4333",
+    "fours": "0.6667",
+    "three of a kind": "1.9"
+}
+weighted_diffs:
+ {
+    "sixes": "-20.5",
+    "yatzy": "-11.2",
+    "large straight": "-7",
+    "fives": "-5.667",
+    "small straight": "-4.594",
+    "four of a kind": "-3.3",
+    "ones": "-2.878",
+    "chance": "-1.5",
+    "one pair": "-1",
+    "full house": "-0.5667",
+    "two pairs": "0.4333",
+    "twos": "0.6889",
+    "fours": "2",
+    "three of a kind": "3.8"
+}
+Values: [1, 2, 4, 4, 5]
+Saving: [4, 4]
+Aiming for: three of a kind
+Expected value: 12
+'Weighted diff': 3.8
+
+
+
+ Roll #2
+Values: [2, 4, 4, 5, 6]
+(expected?) scores:
+ {
+    "ones": "-2.167",
+    "small straight": "0",
+    "large straight": "0",
+    "twos": "3.333",
+    "yatzy": "5",
+    "four of a kind": "6.25",
+    "fives": "8.333",
+    "one pair": "8.333",
+    "three of a kind": "8.333",
+    "fours": "10",
+    "sixes": "10",
+    "two pairs": "10.33",
+    "full house": "10.33",
+    "chance": "22.5"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-10",
+    "sixes": "-6",
+    "yatzy": "-5",
+    "fives": "-4.667",
+    "ones": "-4.267",
+    "four of a kind": "-3.85",
+    "full house": "-3.667",
+    "one pair": "-2.667",
+    "two pairs": "-2.667",
+    "chance": "-2.5",
+    "three of a kind": "-1.767",
+    "fours": "-1",
+    "twos": "-0.7667"
+}
+weighted_diffs:
+ {
+    "sixes": "-18",
+    "fives": "-14",
+    "small straight": "-7",
+    "large straight": "-7",
+    "yatzy": "-5",
+    "four of a kind": "-4.62",
+    "full house": "-4.4",
+    "ones": "-4.267",
+    "fours": "-3",
+    "one pair": "-2.667",
+    "two pairs": "-2.667",
+    "three of a kind": "-1.767",
+    "twos": "-1.533",
+    "chance": "-1.25"
+}
+Values: [2, 4, 4, 5, 6]
+Saving: [4, 4, 5, 6]
+Aiming for: chance
+Expected value: 22.5
+'Weighted diff': -1.25
+
+
+
+ Roll #3
+Values: [4, 4, 5, 5, 6]
+(expected?) scores:
+ {
+    "ones": "0",
+    "twos": "0",
+    "three of a kind": "0",
+    "four of a kind": "0",
+    "small straight": "0",
+    "large straight": "0",
+    "full house": "0",
+    "yatzy": "0",
+    "sixes": "6",
+    "fours": "8",
+    "fives": "10",
+    "one pair": "10",
+    "two pairs": "18",
+    "chance": "24"
+}
+diffs:
+ {
+    "full house": "-14",
+    "three of a kind": "-10.1",
+    "four of a kind": "-10.1",
+    "sixes": "-10",
+    "twos": "-4.1",
+    "fours": "-3",
+    "fives": "-3",
+    "one pair": "-1",
+    "chance": "-1",
+    "yatzy": "-0.2",
+    "large straight": "-0.12",
+    "small straight": "-0.11",
+    "ones": "-0.1",
+    "two pairs": "5"
+}
+weighted_diffs:
+ {
+    "sixes": "-30",
+    "full house": "-21",
+    "four of a kind": "-15.15",
+    "three of a kind": "-10.1",
+    "fours": "-9",
+    "fives": "-9",
+    "twos": "-8.2",
+    "one pair": "-1",
+    "chance": "-0.5",
+    "yatzy": "-0.2",
+    "large straight": "-0.18",
+    "small straight": "-0.165",
+    "ones": "-0.1",
+    "two pairs": "5"
+}
+Current scoreboard:
+ {
+    "ones": null,
+    "twos": null,
+    "threes": 12,
+    "fours": null,
+    "fives": null,
+    "sixes": null,
+    "one pair": null,
+    "two pairs": null,
+    "three of a kind": null,
+    "four of a kind": null,
+    "small straight": null,
+    "large straight": null,
+    "full house": null,
+    "chance": null,
+    "yatzy": null
+}
+Upper section 'status': 3
+Final values: [4, 4, 5, 5, 6]
+final_choice: {'two pairs': 18}
+
+
+
+
+
+ New turn. turns_left: 13
+_____________________________________________
+
+
+
+ Roll #1
+Values: [1, 1, 2, 3, 3]
+(expected?) scores:
+ {
+    "small straight": "0",
+    "large straight": "0",
+    "ones": "2.917",
+    "twos": "4.444",
+    "yatzy": "5.4",
+    "fours": "6.111",
+    "four of a kind": "6.75",
+    "fives": "7.639",
+    "one pair": "8.333",
+    "three of a kind": "9",
+    "sixes": "9.167",
+    "full house": "10.83",
+    "chance": "21.25"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-10",
+    "sixes": "-6.833",
+    "fives": "-5.361",
+    "fours": "-4.889",
+    "yatzy": "-4.6",
+    "chance": "-3.75",
+    "four of a kind": "-3.35",
+    "full house": "-3.167",
+    "one pair": "-2.667",
+    "three of a kind": "-1.1",
+    "twos": "0.3444",
+    "ones": "0.8167"
+}
+weighted_diffs:
+ {
+    "sixes": "-20.5",
+    "yatzy": "-18.4",
+    "fives": "-16.08",
+    "fours": "-14.67",
+    "four of a kind": "-10.05",
+    "small straight": "-7",
+    "large straight": "-7",
+    "full house": "-3.167",
+    "one pair": "-2.667",
+    "three of a kind": "-2.2",
+    "chance": "-1.875",
+    "twos": "0.6889",
+    "ones": "0.8167"
+}
+Values: [1, 1, 2, 3, 3]
+Saving: [1, 1]
+Aiming for: ones
+Expected value: 2.917
+'Weighted diff': 0.8167
+
+
+
+ Roll #2
+Values: [1, 1, 3, 5, 6]
+(expected?) scores:
+ {
+    "small straight": "0",
+    "large straight": "0",
+    "twos": "1.667",
+    "ones": "2.5",
+    "fours": "3.333",
+    "yatzy": "3.333",
+    "four of a kind": "4.167",
+    "three of a kind": "5.556",
+    "fives": "8.333",
+    "one pair": "8.333",
+    "sixes": "10",
+    "full house": "10",
+    "chance": "21.5"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-10",
+    "fours": "-7.667",
+    "yatzy": "-6.667",
+    "sixes": "-6",
+    "four of a kind": "-5.933",
+    "fives": "-4.667",
+    "three of a kind": "-4.544",
+    "full house": "-4",
+    "chance": "-3.5",
+    "one pair": "-2.667",
+    "twos": "-2.433",
+    "ones": "0.4"
+}
+weighted_diffs:
+ {
+    "fours": "-23",
+    "sixes": "-18",
+    "fives": "-14",
+    "four of a kind": "-7.12",
+    "small straight": "-7",
+    "large straight": "-7",
+    "yatzy": "-6.667",
+    "twos": "-4.867",
+    "full house": "-4.8",
+    "three of a kind": "-4.544",
+    "one pair": "-2.667",
+    "chance": "-1.75",
+    "ones": "0.4"
+}
+Values: [1, 1, 3, 5, 6]
+Saving: [1, 1]
+Aiming for: ones
+Expected value: 2.5
+'Weighted diff': 0.4
+
+
+
+ Roll #3
+Values: [1, 1, 2, 6, 6]
+(expected?) scores:
+ {
+    "fours": "0",
+    "fives": "0",
+    "three of a kind": "0",
+    "four of a kind": "0",
+    "small straight": "0",
+    "large straight": "0",
+    "full house": "0",
+    "yatzy": "0",
+    "ones": "2",
+    "twos": "2",
+    "sixes": "12",
+    "one pair": "12",
+    "chance": "16"
+}
+diffs:
+ {
+    "full house": "-14",
+    "fives": "-13",
+    "fours": "-11",
+    "three of a kind": "-10.1",
+    "four of a kind": "-10.1",
+    "chance": "-9",
+    "sixes": "-4",
+    "twos": "-2.1",
+    "yatzy": "-0.2",
+    "large straight": "-0.12",
+    "small straight": "-0.11",
+    "one pair": "1",
+    "ones": "1.9"
+}
+weighted_diffs:
+ {
+    "fives": "-39",
+    "fours": "-33",
+    "full house": "-21",
+    "four of a kind": "-15.15",
+    "sixes": "-12",
+    "three of a kind": "-10.1",
+    "chance": "-4.5",
+    "twos": "-4.2",
+    "yatzy": "-0.2",
+    "large straight": "-0.18",
+    "small straight": "-0.165",
+    "one pair": "1",
+    "ones": "1.9"
+}
+Current scoreboard:
+ {
+    "ones": null,
+    "twos": null,
+    "threes": 12,
+    "fours": null,
+    "fives": null,
+    "sixes": null,
+    "one pair": null,
+    "two pairs": 18,
+    "three of a kind": null,
+    "four of a kind": null,
+    "small straight": null,
+    "large straight": null,
+    "full house": null,
+    "chance": null,
+    "yatzy": null
+}
+Upper section 'status': 3
+Final values: [1, 1, 2, 6, 6]
+final_choice: {'ones': 2}
+
+
+
+
+
+ New turn. turns_left: 12
+_____________________________________________
+
+
+
+ Roll #1
+Values: [1, 2, 3, 4, 4]
+(expected?) scores:
+ {
+    "large straight": "0",
+    "small straight": "3.437",
+    "twos": "4.444",
+    "yatzy": "7.2",
+    "fives": "7.639",
+    "one pair": "8.333",
+    "four of a kind": "9",
+    "sixes": "9.167",
+    "fours": "11.67",
+    "three of a kind": "12",
+    "full house": "13.43",
+    "chance": "21.25"
+}
+diffs:
+ {
+    "large straight": "-10",
+    "sixes": "-6.833",
+    "small straight": "-6.563",
+    "fives": "-5.361",
+    "chance": "-3.75",
+    "yatzy": "-2.8",
+    "one pair": "-2.667",
+    "four of a kind": "-1.1",
+    "full house": "-0.5667",
+    "three of a kind": "-0.1",
+    "twos": "0.3444",
+    "fours": "0.6667"
+}
+weighted_diffs:
+ {
+    "sixes": "-20.5",
+    "fives": "-16.08",
+    "yatzy": "-11.2",
+    "large straight": "-7",
+    "small straight": "-4.594",
+    "four of a kind": "-3.3",
+    "one pair": "-2.667",
+    "chance": "-1.875",
+    "full house": "-0.5667",
+    "three of a kind": "-0.2",
+    "twos": "0.6889",
+    "fours": "2"
+}
+Values: [1, 2, 3, 4, 4]
+Saving: [4, 4]
+Aiming for: fours
+Expected value: 11.67
+'Weighted diff': 2
+
+
+
+ Roll #2
+Values: [1, 3, 4, 4, 4]
+(expected?) scores:
+ {
+    "small straight": "0",
+    "large straight": "0",
+    "twos": "1.667",
+    "fives": "4.167",
+    "sixes": "5",
+    "one pair": "8",
+    "yatzy": "8.889",
+    "full house": "10.33",
+    "four of a kind": "11.11",
+    "three of a kind": "12",
+    "fours": "13.33",
+    "chance": "19"
+}
+diffs:
+ {
+    "sixes": "-11",
+    "small straight": "-10",
+    "large straight": "-10",
+    "fives": "-8.833",
+    "chance": "-6",
+    "full house": "-3.667",
+    "one pair": "-3",
+    "twos": "-2.433",
+    "yatzy": "-1.111",
+    "three of a kind": "-0.1",
+    "four of a kind": "1.011",
+    "fours": "2.333"
+}
+weighted_diffs:
+ {
+    "sixes": "-33",
+    "fives": "-26.5",
+    "small straight": "-7",
+    "large straight": "-7",
+    "twos": "-4.867",
+    "full house": "-4.4",
+    "one pair": "-3",
+    "chance": "-3",
+    "yatzy": "-1.111",
+    "three of a kind": "-0.1",
+    "four of a kind": "1.213",
+    "fours": "7"
+}
+Values: [1, 3, 4, 4, 4]
+Saving: [4, 4, 4]
+Aiming for: fours
+Expected value: 13.33
+'Weighted diff': 7
+
+
+
+ Roll #3
+Values: [4, 4, 4, 4, 6]
+(expected?) scores:
+ {
+    "twos": "0",
+    "fives": "0",
+    "small straight": "0",
+    "large straight": "0",
+    "full house": "0",
+    "yatzy": "0",
+    "sixes": "6",
+    "one pair": "8",
+    "three of a kind": "12",
+    "fours": "16",
+    "four of a kind": "16",
+    "chance": "22"
+}
+diffs:
+ {
+    "full house": "-14",
+    "fives": "-13",
+    "sixes": "-10",
+    "yatzy": "-10",
+    "one pair": "-3",
+    "chance": "-3",
+    "twos": "-2.1",
+    "large straight": "-0.12",
+    "small straight": "-0.11",
+    "three of a kind": "-0.1",
+    "fours": "5",
+    "four of a kind": "5.9"
+}
+weighted_diffs:
+ {
+    "fives": "-39",
+    "sixes": "-30",
+    "full house": "-21",
+    "yatzy": "-10",
+    "twos": "-4.2",
+    "one pair": "-3",
+    "chance": "-1.5",
+    "large straight": "-0.18",
+    "small straight": "-0.165",
+    "three of a kind": "-0.1",
+    "four of a kind": "8.85",
+    "fours": "15"
+}
+Current scoreboard:
+ {
+    "ones": 2,
+    "twos": null,
+    "threes": 12,
+    "fours": null,
+    "fives": null,
+    "sixes": null,
+    "one pair": null,
+    "two pairs": 18,
+    "three of a kind": null,
+    "four of a kind": null,
+    "small straight": null,
+    "large straight": null,
+    "full house": null,
+    "chance": null,
+    "yatzy": null
+}
+Upper section 'status': 2
+Final values: [4, 4, 4, 4, 6]
+final_choice: {'fours': 16}
+
+
+
+
+
+ New turn. turns_left: 11
+_____________________________________________
+
+
+
+ Roll #1
+Values: [2, 4, 4, 5, 6]
+(expected?) scores:
+ {
+    "small straight": "0",
+    "twos": "4.444",
+    "large straight": "4.583",
+    "yatzy": "7.2",
+    "four of a kind": "9",
+    "fives": "11.11",
+    "one pair": "12",
+    "three of a kind": "12",
+    "sixes": "13.33",
+    "full house": "13.43",
+    "chance": "23.75"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-5.417",
+    "yatzy": "-2.8",
+    "sixes": "-2.667",
+    "fives": "-1.889",
+    "chance": "-1.25",
+    "four of a kind": "-1.1",
+    "full house": "-0.5667",
+    "three of a kind": "-0.1",
+    "twos": "0.3444",
+    "one pair": "1"
+}
+weighted_diffs:
+ {
+    "yatzy": "-11.2",
+    "sixes": "-8",
+    "small straight": "-7",
+    "fives": "-5.667",
+    "large straight": "-3.792",
+    "four of a kind": "-3.3",
+    "chance": "-0.625",
+    "full house": "-0.5667",
+    "three of a kind": "-0.2",
+    "twos": "0.6889",
+    "one pair": "1"
+}
+Values: [2, 4, 4, 5, 6]
+Saving: [6]
+Aiming for: one pair
+Expected value: 12
+'Weighted diff': 1
+
+
+
+ Roll #2
+Values: [1, 2, 2, 3, 6]
+(expected?) scores:
+ {
+    "small straight": "0",
+    "large straight": "0",
+    "yatzy": "3.333",
+    "fives": "4.167",
+    "four of a kind": "4.167",
+    "twos": "5",
+    "three of a kind": "5.556",
+    "one pair": "8.333",
+    "sixes": "10",
+    "full house": "10",
+    "chance": "20"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-10",
+    "fives": "-8.833",
+    "yatzy": "-6.667",
+    "three of a kind": "-6.544",
+    "sixes": "-6",
+    "four of a kind": "-5.933",
+    "chance": "-5",
+    "full house": "-4",
+    "one pair": "-2.667",
+    "twos": "0.9"
+}
+weighted_diffs:
+ {
+    "fives": "-26.5",
+    "sixes": "-18",
+    "four of a kind": "-7.12",
+    "small straight": "-7",
+    "large straight": "-7",
+    "yatzy": "-6.667",
+    "three of a kind": "-6.544",
+    "full house": "-4.8",
+    "one pair": "-2.667",
+    "chance": "-2.5",
+    "twos": "1.8"
+}
+Values: [1, 2, 2, 3, 6]
+Saving: [2, 2]
+Aiming for: twos
+Expected value: 5
+'Weighted diff': 1.8
+
+
+
+ Roll #3
+Values: [2, 2, 2, 2, 6]
+(expected?) scores:
+ {
+    "fives": "0",
+    "small straight": "0",
+    "large straight": "0",
+    "full house": "0",
+    "yatzy": "0",
+    "one pair": "4",
+    "sixes": "6",
+    "three of a kind": "6",
+    "twos": "8",
+    "four of a kind": "8",
+    "chance": "14"
+}
+diffs:
+ {
+    "full house": "-14",
+    "fives": "-13",
+    "chance": "-11",
+    "sixes": "-10",
+    "yatzy": "-10",
+    "one pair": "-7",
+    "three of a kind": "-6.1",
+    "four of a kind": "-2.1",
+    "large straight": "-0.12",
+    "small straight": "-0.11",
+    "twos": "7.9"
+}
+weighted_diffs:
+ {
+    "fives": "-39",
+    "sixes": "-30",
+    "full house": "-21",
+    "yatzy": "-10",
+    "one pair": "-7",
+    "three of a kind": "-6.1",
+    "chance": "-5.5",
+    "four of a kind": "-3.15",
+    "large straight": "-0.18",
+    "small straight": "-0.165",
+    "twos": "15.8"
+}
+Current scoreboard:
+ {
+    "ones": 2,
+    "twos": null,
+    "threes": 12,
+    "fours": 16,
+    "fives": null,
+    "sixes": null,
+    "one pair": null,
+    "two pairs": 18,
+    "three of a kind": null,
+    "four of a kind": null,
+    "small straight": null,
+    "large straight": null,
+    "full house": null,
+    "chance": null,
+    "yatzy": null
+}
+Upper section 'status': 6
+Final values: [2, 2, 2, 2, 6]
+final_choice: {'twos': 8}
+
+
+
+
+
+ New turn. turns_left: 10
+_____________________________________________
+
+
+
+ Roll #1
+Values: [1, 2, 3, 5, 6]
+(expected?) scores:
+ {
+    "small straight": "3.437",
+    "large straight": "4.583",
+    "yatzy": "6.533",
+    "four of a kind": "8.167",
+    "three of a kind": "10.89",
+    "fives": "11.11",
+    "one pair": "12",
+    "full house": "13",
+    "sixes": "13.33",
+    "chance": "23.75"
+}
+diffs:
+ {
+    "small straight": "-6.563",
+    "large straight": "-5.417",
+    "four of a kind": "-3.933",
+    "yatzy": "-3.467",
+    "full house": "-3",
+    "sixes": "-2.667",
+    "fives": "-1.889",
+    "chance": "-1.25",
+    "three of a kind": "-1.211",
+    "one pair": "1"
+}
+weighted_diffs:
+ {
+    "yatzy": "-13.87",
+    "four of a kind": "-11.8",
+    "sixes": "-8",
+    "fives": "-5.667",
+    "small straight": "-4.594",
+    "large straight": "-3.792",
+    "full house": "-3",
+    "three of a kind": "-2.422",
+    "chance": "-0.625",
+    "one pair": "1"
+}
+Values: [1, 2, 3, 5, 6]
+Saving: [6]
+Aiming for: one pair
+Expected value: 12
+'Weighted diff': 1
+
+
+
+ Roll #2
+Values: [2, 4, 5, 6, 6]
+(expected?) scores:
+ {
+    "small straight": "0",
+    "large straight": "0",
+    "yatzy": "7.5",
+    "fives": "8.333",
+    "four of a kind": "9.375",
+    "one pair": "12",
+    "three of a kind": "12.5",
+    "full house": "14.33",
+    "sixes": "15",
+    "chance": "24.5"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-10",
+    "fives": "-4.667",
+    "four of a kind": "-2.725",
+    "yatzy": "-2.5",
+    "full house": "-1.667",
+    "sixes": "-1",
+    "chance": "-0.5",
+    "three of a kind": "0.4",
+    "one pair": "1"
+}
+weighted_diffs:
+ {
+    "fives": "-14",
+    "small straight": "-7",
+    "large straight": "-7",
+    "four of a kind": "-3.27",
+    "sixes": "-3",
+    "yatzy": "-2.5",
+    "full house": "-2",
+    "chance": "-0.25",
+    "three of a kind": "0.4",
+    "one pair": "1"
+}
+Values: [2, 4, 5, 6, 6]
+Saving: [6, 6]
+Aiming for: one pair
+Expected value: 12
+'Weighted diff': 1
+
+
+
+ Roll #3
+Values: [1, 2, 6, 6, 6]
+(expected?) scores:
+ {
+    "fives": "0",
+    "four of a kind": "0",
+    "small straight": "0",
+    "large straight": "0",
+    "full house": "0",
+    "yatzy": "0",
+    "one pair": "12",
+    "sixes": "18",
+    "three of a kind": "18",
+    "chance": "21"
+}
+diffs: 
+ {
+    "full house": "-16",
+    "fives": "-13",
+    "four of a kind": "-12.1",
+    "yatzy": "-10",
+    "chance": "-4",
+    "large straight": "-0.12",
+    "small straight": "-0.11",
+    "one pair": "1",
+    "sixes": "2",
+    "three of a kind": "5.9"
+}
+weighted_diffs:
+ {
+    "fives": "-39",
+    "full house": "-24",
+    "four of a kind": "-18.15",
+    "yatzy": "-10",
+    "chance": "-2",
+    "large straight": "-0.18",
+    "small straight": "-0.165",
+    "one pair": "1",
+    "three of a kind": "5.9",
+    "sixes": "6"
+}
+Current scoreboard:
+ {
+    "ones": 2,
+    "twos": 8,
+    "threes": 12,
+    "fours": 16,
+    "fives": null,
+    "sixes": null,
+    "one pair": null,
+    "two pairs": 18,
+    "three of a kind": null,
+    "four of a kind": null,
+    "small straight": null,
+    "large straight": null,
+    "full house": null,
+    "chance": null,
+    "yatzy": null
+}
+Upper section 'status': 8
+Final values: [1, 2, 6, 6, 6]
+final_choice: {'sixes': 18}
+
+
+
+
+
+ New turn. turns_left: 9
+_____________________________________________
+
+
+
+ Roll #1
+Values: [2, 2, 6, 6, 6]
+(expected?) scores:
+ {
+    "small straight": "0",
+    "large straight": "0",
+    "fives": "7.639",
+    "one pair": "12",
+    "yatzy": "16.13",
+    "three of a kind": "18",
+    "four of a kind": "20.17",
+    "full house": "22",
+    "chance": "26.5"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-10",
+    "fives": "-5.361",
+    "one pair": "1",
+    "chance": "1.5",
+    "three of a kind": "5.9",
+    "full house": "6",
+    "yatzy": "6.133",
+    "four of a kind": "8.067"
+}
+weighted_diffs:
+ {
+    "fives": "-16.08",
+    "small straight": "-7",
+    "large straight": "-7",
+    "chance": "0.75",
+    "one pair": "1",
+    "full house": "6",
+    "three of a kind": "11.8",
+    "four of a kind": "24.2",
+    "yatzy": "24.53"
+}
+Values: [2, 2, 6, 6, 6]
+Saving: [6, 6, 6]
+Aiming for: yatzy
+Expected value: 16.13
+'Weighted diff': 24.53
+
+
+
+ Roll #2
+Values: [2, 6, 6, 6, 6]
+(expected?) scores:
+ {
+    "small straight": "0",
+    "large straight": "0",
+    "fives": "4.167",
+    "one pair": "12",
+    "full house": "14.33",
+    "three of a kind": "18",
+    "yatzy": "20.83",
+    "four of a kind": "24",
+    "chance": "27.5"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-10",
+    "fives": "-8.833",
+    "full house": "-1.667",
+    "one pair": "1",
+    "chance": "2.5",
+    "three of a kind": "5.9",
+    "yatzy": "10.83",
+    "four of a kind": "11.9"
+}
+weighted_diffs:
+ {
+    "fives": "-26.5",
+    "small straight": "-7",
+    "large straight": "-7",
+    "full house": "-2",
+    "one pair": "1",
+    "chance": "1.25",
+    "three of a kind": "5.9",
+    "yatzy": "10.83",
+    "four of a kind": "14.28"
+}
+Values: [2, 6, 6, 6, 6]
+Saving: [6, 6, 6, 6]
+Aiming for: four of a kind
+Expected value: 24
+'Weighted diff': 14.28
+
+
+
+ Roll #3
+Values: [6, 6, 6, 6, 6]
+Yatzy!
+Yatzy!
+Yatzy!
+Yatzy!
+Yatzy!
+Yatzy!
+Yatzy!
+Yatzy!
+Yatzy!
+Yatzy!
+(expected?) scores:
+ {
+    "fives": "0",
+    "small straight": "0",
+    "large straight": "0",
+    "full house": "0",
+    "one pair": "12",
+    "three of a kind": "18",
+    "four of a kind": "24",
+    "chance": "30",
+    "yatzy": "50"
+}
+diffs:
+ {
+    "full house": "-16",
+    "fives": "-13",
+    "large straight": "-0.12",
+    "small straight": "-0.11",
+    "one pair": "1",
+    "chance": "5",
+    "three of a kind": "5.9",
+    "four of a kind": "11.9",
+    "yatzy": "40"
+}
+weighted_diffs:
+ {
+    "fives": "-39",
+    "full house": "-24",
+    "large straight": "-0.18",
+    "small straight": "-0.165",
+    "one pair": "1",
+    "chance": "2.5",
+    "three of a kind": "5.9",
+    "four of a kind": "17.85",
+    "yatzy": "40"
+}
+Current scoreboard:
+ {
+    "ones": 2,
+    "twos": 8,
+    "threes": 12,
+    "fours": 16,
+    "fives": null,
+    "sixes": 18,
+    "one pair": null,
+    "two pairs": 18,
+    "three of a kind": null,
+    "four of a kind": null,
+    "small straight": null,
+    "large straight": null,
+    "full house": null,
+    "chance": null,
+    "yatzy": null
+}
+Upper section 'status': 8
+Final values: [6, 6, 6, 6, 6]
+final_choice: {'yatzy': 50}
+
+
+
+
+
+ New turn. turns_left: 8
+_____________________________________________
+
+
+
+ Roll #1
+Values: [1, 4, 4, 4, 6]
+(expected?) scores:
+ {
+    "small straight": "0",
+    "large straight": "0",
+    "fives": "7.639",
+    "one pair": "12",
+    "three of a kind": "12",
+    "full house": "13.43",
+    "four of a kind": "13.44",
+    "chance": "23"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-10",
+    "fives": "-5.361",
+    "full house": "-2.567",
+    "chance": "-2",
+    "three of a kind": "-0.1",
+    "one pair": "1",
+    "four of a kind": "1.344"
+}
+weighted_diffs:
+ {
+    "fives": "-16.08",
+    "small straight": "-7",
+    "large straight": "-7",
+    "full house": "-2.567",
+    "chance": "-1",
+    "three of a kind": "-0.2",
+    "one pair": "1",
+    "four of a kind": "4.033"
+}
+Values: [1, 4, 4, 4, 6]
+Saving: [4, 4, 4]
+Aiming for: four of a kind
+Expected value: 13.44
+'Weighted diff': 4.033
+
+
+
+ Roll #2
+Values: [4, 4, 4, 5, 6]
+(expected?) scores:
+ {
+    "small straight": "0",
+    "large straight": "0",
+    "fives": "8.333",
+    "one pair": "8.333",
+    "full house": "10.33",
+    "four of a kind": "11.11",
+    "three of a kind": "12",
+    "chance": "23"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-10",
+    "full house": "-5.667",
+    "fives": "-4.667",
+    "one pair": "-2.667",
+    "chance": "-2",
+    "four of a kind": "-0.9889",
+    "three of a kind": "-0.1"
+}
+weighted_diffs:
+ {
+    "fives": "-14",
+    "small straight": "-7",
+    "large straight": "-7",
+    "full house": "-6.8",
+    "one pair": "-2.667",
+    "four of a kind": "-1.187",
+    "chance": "-1",
+    "three of a kind": "-0.1"
+}
+Values: [4, 4, 4, 5, 6]
+Saving: [4, 4, 4]
+Aiming for: three of a kind
+Expected value: 12
+'Weighted diff': -0.1
+
+
+
+ Roll #3
+Values: [4, 4, 4, 4, 6]
+(expected?) scores:
+ {
+    "fives": "0",
+    "small straight": "0",
+    "large straight": "0",
+    "full house": "0",
+    "one pair": "8",
+    "three of a kind": "12",
+    "four of a kind": "16",
+    "chance": "22"
+}
+diffs: 
+ {
+    "full house": "-16",
+    "fives": "-13",
+    "one pair": "-3",
+    "chance": "-3",
+    "large straight": "-0.12",
+    "small straight": "-0.11",
+    "three of a kind": "-0.1",
+    "four of a kind": "3.9"
+}
+weighted_diffs: 
+ {
+    "fives": "-39",
+    "full house": "-24",
+    "one pair": "-3",
+    "chance": "-1.5",
+    "large straight": "-0.18",
+    "small straight": "-0.165",
+    "three of a kind": "-0.1",
+    "four of a kind": "5.85"
+}
+Current scoreboard:
+ {
+    "ones": 2,
+    "twos": 8,
+    "threes": 12,
+    "fours": 16,
+    "fives": null,
+    "sixes": 18,
+    "one pair": null,
+    "two pairs": 18,
+    "three of a kind": null,
+    "four of a kind": null,
+    "small straight": null,
+    "large straight": null,
+    "full house": null,
+    "chance": null,
+    "yatzy": 50
+}
+Upper section 'status': 8
+Final values: [4, 4, 4, 4, 6]
+final_choice: {'four of a kind': 16}
+
+
+
+
+
+ New turn. turns_left: 7
+_____________________________________________
+
+
+
+ Roll #1
+Values: [2, 3, 4, 6, 6]
+(expected?) scores: 
+ {
+    "small straight": "0",
+    "large straight": "4.583",
+    "fives": "7.639",
+    "one pair": "12",
+    "three of a kind": "18",
+    "full house": "18.63",
+    "chance": "24.75"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-5.417",
+    "fives": "-5.361",
+    "chance": "-0.25",
+    "one pair": "1",
+    "full house": "2.633",
+    "three of a kind": "5.9"
+}
+weighted_diffs:
+ {
+    "fives": "-16.08",
+    "small straight": "-7",
+    "large straight": "-3.792",
+    "chance": "-0.125",
+    "one pair": "1",
+    "full house": "2.633",
+    "three of a kind": "11.8"
+}
+Values: [2, 3, 4, 6, 6]
+Saving: [6, 6]
+Aiming for: three of a kind
+Expected value: 18
+'Weighted diff': 11.8
+
+
+
+ Roll #2
+Values: [2, 3, 6, 6, 6]
+(expected?) scores:
+ {
+    "small straight": "0",
+    "large straight": "0",
+    "fives": "4.167",
+    "one pair": "12",
+    "full house": "14.33",
+    "three of a kind": "18",
+    "chance": "25"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-10",
+    "fives": "-8.833",
+    "full house": "-1.667",
+    "chance": "0",
+    "one pair": "1",
+    "three of a kind": "5.9"
+}
+weighted_diffs:
+ {
+    "fives": "-26.5",
+    "small straight": "-7",
+    "large straight": "-7",
+    "full house": "-2",
+    "chance": "0",
+    "one pair": "1",
+    "three of a kind": "5.9"
+}
+Values: [2, 3, 6, 6, 6]
+Saving: [6, 6, 6]
+Aiming for: three of a kind
+Expected value: 18
+'Weighted diff': 5.9
+
+
+
+ Roll #3
+Values: [1, 3, 6, 6, 6]
+(expected?) scores:
+ {
+    "fives": "0",
+    "small straight": "0",
+    "large straight": "0",
+    "full house": "0",
+    "one pair": "12",
+    "three of a kind": "18",
+    "chance": "22"
+}
+diffs:
+ {
+    "full house": "-16",
+    "fives": "-13",
+    "chance": "-3",
+    "large straight": "-0.12",
+    "small straight": "-0.11",
+    "one pair": "1",
+    "three of a kind": "5.9"
+}
+weighted_diffs:
+ {
+    "fives": "-39",
+    "full house": "-24",
+    "chance": "-1.5",
+    "large straight": "-0.18",
+    "small straight": "-0.165",
+    "one pair": "1",
+    "three of a kind": "5.9"
+}
+Current scoreboard:
+ {
+    "ones": 2,
+    "twos": 8,
+    "threes": 12,
+    "fours": 16,
+    "fives": null,
+    "sixes": 18,
+    "one pair": null,
+    "two pairs": 18,
+    "three of a kind": null,
+    "four of a kind": 16,
+    "small straight": null,
+    "large straight": null,
+    "full house": null,
+    "chance": null,
+    "yatzy": 50
+}
+Upper section 'status': 8
+Final values: [1, 3, 6, 6, 6]
+final_choice: {'three of a kind': 18}
+
+
+
+
+
+ New turn. turns_left: 6
+_____________________________________________
+
+
+
+ Roll #1
+Values: [1, 2, 3, 5, 6]
+(expected?) scores:
+ {
+    "small straight": "3.437",
+    "large straight": "4.583",
+    "fives": "11.11",
+    "one pair": "12",
+    "full house": "13",
+    "chance": "23.75"
+}
+diffs:
+ {
+    "small straight": "-6.563",
+    "large straight": "-5.417",
+    "full house": "-3",
+    "fives": "-1.889",
+    "chance": "-1.25",
+    "one pair": "1"
+}
+weighted_diffs:
+ {
+    "fives": "-5.667",
+    "small straight": "-4.594",
+    "large straight": "-3.792",
+    "full house": "-3",
+    "chance": "-0.625",
+    "one pair": "1"
+}
+Values: [1, 2, 3, 5, 6]
+Saving: [6]
+Aiming for: one pair
+Expected value: 12
+'Weighted diff': 1
+
+
+
+ Roll #2
+Values: [1, 3, 3, 3, 6]
+(expected?) scores:
+ {
+    "small straight": "0",
+    "large straight": "0",
+    "fives": "4.167",
+    "one pair": "8.333",
+    "full house": "8.333",
+    "chance": "20"
+}
+diffs:
+ {
+    "small straight": "-10",
+    "large straight": "-10",
+    "fives": "-8.833",
+    "full house": "-7.667",
+    "chance": "-5",
+    "one pair": "-2.667"
+}
+weighted_diffs:
+ {
+    "fives": "-26.5",
+    "full house": "-9.2",
+    "small straight": "-7",
+    "large straight": "-7",
+    "one pair": "-2.667",
+    "chance": "-2.5"
+}
+Values: [1, 3, 3, 3, 6]
+Saving: [6]
+Aiming for: chance
+Expected value: 20
+'Weighted diff': -2.5
+
+
+
+ Roll #3
+Values: [1, 3, 4, 4, 6]
+(expected?) scores:
+ {
+    "fives": "0",
+    "small straight": "0",
+    "large straight": "0",
+    "full house": "0",
+    "one pair": "8",
+    "chance": "18"
+}
+diffs:
+ {
+    "full house": "-16",
+    "fives": "-13",
+    "chance": "-7",
+    "one pair": "-3",
+    "large straight": "-0.12",
+    "small straight": "-0.11"
+}
+weighted_diffs:
+ {
+    "fives": "-39",
+    "full house": "-24",
+    "chance": "-3.5",
+    "one pair": "-3",
+    "large straight": "-0.18",
+    "small straight": "-0.165"
+}
+Current scoreboard:
+ {
+    "ones": 2,
+    "twos": 8,
+    "threes": 12,
+    "fours": 16,
+    "fives": null,
+    "sixes": 18,
+    "one pair": null,
+    "two pairs": 18,
+    "three of a kind": 18,
+    "four of a kind": 16,
+    "small straight": null,
+    "large straight": null,
+    "full house": null,
+    "chance": null,
+    "yatzy": 50
+}
+Upper section 'status': 8
+Final values: [1, 3, 4, 4, 6]
+final_choice: {'small straight': 0}
+
+
+
+
+
+ New turn. turns_left: 5
+_____________________________________________
+
+
+
+ Roll #1
+Values: [3, 3, 4, 6, 6]
+(expected?) scores:
+ {
+    "large straight": "0",
+    "full house": "7.5",
+    "fives": "7.639",
+    "one pair": "12",
+    "chance": "24.75"
+}
+diffs:
+ {
+    "large straight": "-10",
+    "full house": "-8.5",
+    "fives": "-5.361",
+    "chance": "-0.25",
+    "one pair": "1"
+}
+weighted_diffs:
+ {
+    "fives": "-16.08",
+    "full house": "-8.5",
+    "large straight": "-7",
+    "chance": "-0.125",
+    "one pair": "1"
+}
+Values: [3, 3, 4, 6, 6]
+Saving: [6, 6]
+Aiming for: one pair
+Expected value: 12
+'Weighted diff': 1
+
+
+
+ Roll #2
+Values: [1, 3, 5, 6, 6]
+(expected?) scores:
+ {
+    "large straight": "0",
+    "fives": "8.333",
+    "one pair": "12",
+    "full house": "14.33",
+    "chance": "24"
+}
+diffs:
+ {
+    "large straight": "-10",
+    "fives": "-4.667",
+    "full house": "-1.667",
+    "chance": "-1",
+    "one pair": "1"
+}
+weighted_diffs:
+ {
+    "fives": "-14",
+    "large straight": "-7",
+    "full house": "-2",
+    "chance": "-0.5",
+    "one pair": "1"
+}
+Values: [1, 3, 5, 6, 6]
+Saving: [6, 6]
+Aiming for: one pair
+Expected value: 12
+'Weighted diff': 1
+
+
+
+ Roll #3
+Values: [4, 4, 4, 6, 6]
+(expected?) scores:
+ {
+    "fives": "0",
+    "large straight": "0",
+    "one pair": "12",
+    "full house": "24",
+    "chance": "24"
+}
+diffs:
+ {
+    "fives": "-13",
+    "chance": "-1",
+    "large straight": "-0.12",
+    "one pair": "1",
+    "full house": "8"
+}
+weighted_diffs:
+ {
+    "fives": "-39",
+    "chance": "-0.5",
+    "large straight": "-0.18",
+    "one pair": "1",
+    "full house": "12"
+}
+Current scoreboard:
+ {
+    "ones": 2,
+    "twos": 8,
+    "threes": 12,
+    "fours": 16,
+    "fives": null,
+    "sixes": 18,
+    "one pair": null,
+    "two pairs": 18,
+    "three of a kind": 18,
+    "four of a kind": 16,
+    "small straight": 0,
+    "large straight": null,
+    "full house": null,
+    "chance": null,
+    "yatzy": 50
+}
+Upper section 'status': 8
+Final values: [4, 4, 4, 6, 6]
+final_choice: {'full house': 24}
+
+
+
+
+
+ New turn. turns_left: 4
+_____________________________________________
+
+
+
+ Roll #1
+Values: [1, 1, 1, 2, 3]
+(expected?) scores:
+ {
+    "large straight": "0",
+    "fives": "7.639",
+    "one pair": "8.333",
+    "chance": "21.25"
+}
+diffs:
+ {
+    "large straight": "-10",
+    "fives": "-5.361",
+    "chance": "-3.75",
+    "one pair": "-2.667"
+}
+weighted_diffs:
+ {
+    "fives": "-16.08",
+    "large straight": "-7",
+    "one pair": "-2.667",
+    "chance": "-1.875"
+}
+Values: [1, 1, 1, 2, 3]
+Saving: []
+Aiming for: chance
+Expected value: 21.25
+'Weighted diff': -1.875
+
+
+
+ Roll #2
+Values: [1, 1, 3, 5, 5]
+(expected?) scores:
+ {
+    "large straight": "0",
+    "one pair": "10",
+    "fives": "12.5",
+    "chance": "20.5"
+}
+diffs:
+ {
+    "large straight": "-10",
+    "chance": "-4.5",
+    "one pair": "-1",
+    "fives": "-0.5"
+}
+weighted_diffs:
+ {
+    "large straight": "-7",
+    "chance": "-2.25",
+    "fives": "-1.5",
+    "one pair": "-1"
+}
+Values: [1, 1, 3, 5, 5]
+Saving: [5, 5]
+Aiming for: one pair
+Expected value: 10
+'Weighted diff': -1
+
+
+
+ Roll #3
+Values: [1, 2, 5, 5, 6]
+(expected?) scores:
+ {
+    "large straight": "0",
+    "fives": "10",
+    "one pair": "10",
+    "chance": "19"
+}
+diffs:
+ {
+    "chance": "-6",
+    "fives": "-3",
+    "one pair": "-1",
+    "large straight": "-0.12"
+}
+weighted_diffs:
+ {
+    "fives": "-9",
+    "chance": "-3",
+    "one pair": "-1",
+    "large straight": "-0.18"
+}
+Current scoreboard:
+ {
+    "ones": 2,
+    "twos": 8,
+    "threes": 12,
+    "fours": 16,
+    "fives": null,
+    "sixes": 18,
+    "one pair": null,
+    "two pairs": 18,
+    "three of a kind": 18,
+    "four of a kind": 16,
+    "small straight": 0,
+    "large straight": null,
+    "full house": 24,
+    "chance": null,
+    "yatzy": 50
+}
+Upper section 'status': 8
+Final values: [1, 2, 5, 5, 6]
+final_choice: {'large straight': 0}
+
+
+
+
+
+ New turn. turns_left: 3
+_____________________________________________
+
+
+
+ Roll #1
+Values: [3, 3, 4, 6, 6]
+(expected?) scores:
+ {
+    "fives": "7.639",
+    "one pair": "12",
+    "chance": "24.75"
+}
+diffs:
+ {
+    "fives": "-5.361",
+    "chance": "-0.25",
+    "one pair": "1"
+}
+weighted_diffs:
+ {
+    "fives": "-16.08",
+    "chance": "-0.125",
+    "one pair": "1"
+}
+Values: [3, 3, 4, 6, 6]
+Saving: [6, 6]
+Aiming for: one pair
+Expected value: 12
+'Weighted diff': 1
+
+
+
+ Roll #2
+Values: [2, 5, 5, 6, 6]
+(expected?) scores:
+ {
+    "one pair": "12",
+    "fives": "12.5",
+    "chance": "25.5"
+}
+diffs:
+ {
+    "fives": "-0.5",
+    "chance": "0.5",
+    "one pair": "1"
+}
+weighted_diffs:
+ {
+    "fives": "-1.5",
+    "chance": "0.25",
+    "one pair": "1"
+}
+Values: [2, 5, 5, 6, 6]
+Saving: [6, 6]
+Aiming for: one pair
+Expected value: 12
+'Weighted diff': 1
+
+
+
+ Roll #3
+Values: [1, 2, 6, 6, 6]
+(expected?) scores:
+ {
+    "fives": "0",
+    "one pair": "12",
+    "chance": "21"
+}
+diffs:
+ {
+    "fives": "-13",
+    "chance": "-4",
+    "one pair": "1"
+}
+weighted_diffs:
+ {
+    "fives": "-39",
+    "chance": "-2",
+    "one pair": "1"
+}
+Current scoreboard:
+ {
+    "ones": 2,
+    "twos": 8,
+    "threes": 12,
+    "fours": 16,
+    "fives": null,
+    "sixes": 18,
+    "one pair": null,
+    "two pairs": 18,
+    "three of a kind": 18,
+    "four of a kind": 16,
+    "small straight": 0,
+    "large straight": 0,
+    "full house": 24,
+    "chance": null,
+    "yatzy": 50
+}
+Upper section 'status': 8
+Final values: [1, 2, 6, 6, 6]
+final_choice: {'one pair': 12}
+
+
+
+
+
+ New turn. turns_left: 2
+_____________________________________________
+
+
+
+ Roll #1
+Values: [2, 3, 5, 5, 6]
+(expected?) scores:
+ {
+    "fives": "14.58",
+    "chance": "24.5"
+}
+diffs:
+ {
+    "chance": "-0.5",
+    "fives": "1.583"
+}
+weighted_diffs:
+ {
+    "chance": "-0.25",
+    "fives": "4.75"
+}
+Values: [2, 3, 5, 5, 6]
+Saving: [5, 5]
+Aiming for: fives
+Expected value: 14.58
+'Weighted diff': 4.75
+
+
+
+ Roll #2
+Values: [1, 1, 4, 5, 5]
+(expected?) scores:
+ {
+    "fives": "12.5",
+    "chance": "21"
+}
+diffs:
+ {
+    "chance": "-4",
+    "fives": "-0.5"
+}
+weighted_diffs:
+ {
+    "chance": "-2",
+    "fives": "-1.5"
+}
+Values: [1, 1, 4, 5, 5]
+Saving: [5, 5]
+Aiming for: fives
+Expected value: 12.5
+'Weighted diff': -1.5
+
+
+
+ Roll #3
+Values: [1, 3, 3, 5, 5]
+(expected?) scores:
+ {
+    "fives": "10",
+    "chance": "17"
+}
+diffs:
+ {
+    "chance": "-8",
+    "fives": "-3"
+}
+weighted_diffs:
+ {
+    "fives": "-9",
+    "chance": "-4"
+}
+Current scoreboard:
+ {
+    "ones": 2,
+    "twos": 8,
+    "threes": 12,
+    "fours": 16,
+    "fives": null,
+    "sixes": 18,
+    "one pair": 12,
+    "two pairs": 18,
+    "three of a kind": 18,
+    "four of a kind": 16,
+    "small straight": 0,
+    "large straight": 0,
+    "full house": 24,
+    "chance": null,
+    "yatzy": 50
+}
+Upper section 'status': 8
+Final values: [1, 3, 3, 5, 5]
+final_choice: {'chance': 17}
+
+
+
+
+
+ New turn. turns_left: 1
+_____________________________________________
+
+
+
+ Roll #1
+Values: [1, 1, 4, 5, 6]
+(expected?) scores:
+ {
+    "fives": "11.11"
+}
+diffs:
+ {
+    "fives": "-1.889"
+}
+weighted_diffs:
+ {
+    "fives": "-5.667"
+}
+Values: [1, 1, 4, 5, 6]
+Saving: [5]
+Aiming for: fives
+Expected value: 11.11
+'Weighted diff': -5.667
+
+
+
+ Roll #2
+Values: [3, 3, 4, 5, 5]
+(expected?) scores:
+ {
+    "fives": "12.5"
+}
+diffs:
+ {
+    "fives": "-0.5"
+}
+weighted_diffs:
+ {
+    "fives": "-1.5"
+}
+Values: [3, 3, 4, 5, 5]
+Saving: [5, 5]
+Aiming for: fives
+Expected value: 12.5
+'Weighted diff': -1.5
+
+
+
+ Roll #3
+Values: [2, 3, 5, 5, 5]
+(expected?) scores:
+ {
+    "fives": "15"
+}
+diffs:
+ {
+    "fives": "2"
+}
+weighted_diffs:
+ {
+    "fives": "6"
+}
+Current scoreboard:
+ {
+    "ones": 2,
+    "twos": 8,
+    "threes": 12,
+    "fours": 16,
+    "fives": null,
+    "sixes": 18,
+    "one pair": 12,
+    "two pairs": 18,
+    "three of a kind": 18,
+    "four of a kind": 16,
+    "small straight": 0,
+    "large straight": 0,
+    "full house": 24,
+    "chance": 17,
+    "yatzy": 50
+}
+Upper section 'status': 8
+Final values: [2, 3, 5, 5, 5]
+final_choice: {'fives': 15}
+
+
+
+Bonus achieved!  :)
+Final score: 276
+Final scoreboard:
+{
+    "ones": 2,
+    "twos": 8,
+    "threes": 12,
+    "fours": 16,
+    "fives": 15,
+    "sixes": 18,
+    "one pair": 12,
+    "two pairs": 18,
+    "three of a kind": 18,
+    "four of a kind": 16,
+    "small straight": 0,
+    "large straight": 0,
+    "full house": 24,
+    "chance": 17,
+    "yatzy": 50
+}

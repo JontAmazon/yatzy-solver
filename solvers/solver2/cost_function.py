@@ -29,6 +29,7 @@ def get_cost_function(scoreboard, rolls_left):
     cost_function = BASE_COST_FUNCTION.copy()
 
     # 1. Decrease costs of ones and twos if plus score in upper section.
+        # TODO: what? it must be the opposite?
     assert cost_function["ones"] == 2.1
     assert cost_function["twos"] == 4.1
     buffer = get_upper_section_diff(scoreboard)
