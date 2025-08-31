@@ -1,14 +1,3 @@
-# Web page
-- nice looking table for current scoreboard?
-- verify link in README works
-
-
-
-# Portfolio projects +=
-Yatzy Solver
-Heuristic-based algorithm for playing Yatzy.
-[Python, simulation]
-
 
 # PRIO 1
 - main_1000: add more statistics:
