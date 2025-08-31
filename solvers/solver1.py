@@ -1,5 +1,5 @@
 """Solver 1"""
-from pretty_print import pprint, rprint, gprint, yprint, bprint, cprint
+from pretty_print import pprint, bprint
 
 
 SOLVER_DESCRIPTION = """

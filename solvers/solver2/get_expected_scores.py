@@ -3,7 +3,7 @@
 """
 import math
 import json
-from pretty_print import debug_print, debug_print2, pprint, yprint, bprint
+from pretty_print import debug_print, debug_print2, pprint, bprint
 
 
 def get_indices(value, values):

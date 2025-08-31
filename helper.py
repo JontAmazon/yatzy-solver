@@ -8,7 +8,7 @@
     - get_choices
 """
 import random
-from pretty_print import debug_print, debug_print2, pprint, bprint, yprint
+from pretty_print import debug_print, debug_print2, bprint, rprint
 
 
 def roll(values, save):
@@ -163,8 +163,8 @@ def _get_choices(values):
         count = values.count(i)
         if count == 5:
             yatzy = 50
-            for i in range(10):
-                yprint("Yatzy!")
+            for i in range(5):
+                rprint("Yatzy!")
 
     result["one pair"] = max_one_pair
     result["two pairs"] = two_pairs

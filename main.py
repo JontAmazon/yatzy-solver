@@ -4,7 +4,7 @@ from helper import roll
 from helper import update_scoreboard
 from helper import get_final_score
 from helper import get_choices
-from pretty_print import debug_print, debug_print2, pprint, yprint, bprint, rprint
+from pretty_print import debug_print, debug_print2, pprint, bprint, rprint
 
 # Choose Solver:
 # from solvers.solver1 import generate_choice
@@ -31,7 +31,7 @@ scoreboard = {
     "yatzy": None, 
 }
 while turns_left:
-    rprint(f"\n\n\n\n New turn. Turns left: {turns_left}")
+    rprint(f"Turns left: {turns_left}")
     rprint(f"___________________________________________")
     values = 5 * [None]
     save = 5 * [False]
@@ -46,8 +46,8 @@ while turns_left:
             update_scoreboard(final_choice, scoreboard)
             rolls_left = 0
     turns_left -= 1
-    debug_print2(f"\n Updated scoreboard: {scoreboard}")
-    # debug_print2(f"\n Updated scoreboard: {json.dumps(scoreboard, indent=4)}")
+    print(f"\nUpdated scoreboard: \n {json.dumps(scoreboard, indent=4)}")
+    print("\n\n")
 # bprint("\n\n Game ended!")
 final_score = get_final_score(scoreboard)
 bprint(f"Final score: {final_score}")
