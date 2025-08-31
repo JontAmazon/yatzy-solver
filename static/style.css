@@ -9,15 +9,6 @@ h1 {
     color: #333;
 }
 
-#output {
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    height: 300px;
-    overflow-y: scroll;
-}
-
 button {
     padding: 10px 15px;
     background-color: #28a745;

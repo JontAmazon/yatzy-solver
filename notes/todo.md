@@ -1,6 +1,6 @@
 # Web page
-- make UI look good
-
+- nice looking table for current scoreboard?
+- verify link in README works
 
 
 
