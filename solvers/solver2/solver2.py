@@ -81,9 +81,9 @@ def generate_choice(current_choices, scoreboard, values, rolls_left):
 
     if rolls_left:
         saved_dice = [value for value, saved in zip(values, save_dict[choice]) if saved]
-        pprint(f"Values: {sorted(values)}")
-        pprint(f"Saving: {sorted(saved_dice)}")
-        pprint(f"Aiming for: {choice}")
+        bprint(f"Values: {sorted(values)}")
+        bprint(f"Saving: {sorted(saved_dice)}")
+        bprint(f"Aiming for: {choice}")
         debug_print(f"Expected value: {scores[choice]:.4g}")
         debug_print(f"'Weighted diff': {weighted_diffs[choice]:.4g}")
         debug_print2(f"values (unsorted): {values}")
@@ -95,6 +95,6 @@ def generate_choice(current_choices, scoreboard, values, rolls_left):
         # debug_print(f"Current scoreboard: \n {json.dumps(scoreboard, indent=4)}")
         debug_print(f"Upper section 'status': {upper_section_diff}")
         print(f"Current scoreboard: \n {json.dumps(scoreboard, indent=4)}")
-        pprint(f"Final values: {sorted(values)}")
-        pprint(f"final_choice: {final_choice}")
+        bprint(f"Final values: {sorted(values)}")
+        bprint(f"final_choice: {final_choice}")
         return final_choice, 5 * [True]

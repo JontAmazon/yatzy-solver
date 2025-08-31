@@ -1,3 +1,15 @@
+# Web page
+- make UI look good
+
+
+
+
+# Portfolio projects +=
+Yatzy Solver
+Heuristic-based algorithm for playing Yatzy.
+[Python, simulation]
+
+
 # PRIO 1
 - main_1000: add more statistics:
     - average for each combo
