@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yatzy Simulator</title>
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    #output {
+      border: 1px solid #ccc;
+      padding: 1em;
+      height: 300px;
+      overflow-y: scroll;
+      white-space: pre-wrap;
+      background: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Yatzy Simulator</h1>
+  <p>Heuristic-based algorithm for Yatzy:</p>
+  <ol>
+    <li>For each of the 15 things that are possible to aim for, estimate an <b>expected score</b> if aiming for that.</li>
+    <li>From the expected score, subtract a <b>cost function</b>. (The cost function is what you hope to get for each combination, kind of.)</li>
+    <li>Multiply the difference by a <b>weight function</b>. This helps to prioritize e.g. the upper half, to get the bonus.</li>
+    <li>Use the max value to determine which dice to save.</li>
+  </ol>
+  <p>Average score: 229</p>
+  <p>Overall, it scores decently, probably better than many humans, but worse 
+    than experienced humans, because it makes really stupid decisions sometimes.</p>
+  <p>To simulate a game of yatzy, run main.py.</p>
+  <button onclick="runScript()">Run main.py</button>
+  <div id="output"></div>
+
+  <script>
+    async function runScript() {
+      document.getElementById("output").innerText = "Running...";
+      let res = await fetch("/run", {method: "POST"});
+      let data = await res.json();
+      document.getElementById("output").innerText = data.output;
+    }
+  </script>
+</body>
+</html>
