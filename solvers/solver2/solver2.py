@@ -92,8 +92,9 @@ def generate_choice(current_choices, scoreboard, values, rolls_left):
     else:
         final_choice = {choice: scores[choice]}
         debug_print2(f"Possible choices: \n {json.dumps(current_choices, indent=4)}")
-        debug_print(f"Current scoreboard: \n {json.dumps(scoreboard, indent=4)}")
+        # debug_print(f"Current scoreboard: \n {json.dumps(scoreboard, indent=4)}")
         debug_print(f"Upper section 'status': {upper_section_diff}")
-        bprint(f"Final values: {sorted(values)}")
-        bprint(f"final_choice: {final_choice}")
+        print(f"Current scoreboard: \n {json.dumps(scoreboard, indent=4)}")
+        pprint(f"Final values: {sorted(values)}")
+        pprint(f"final_choice: {final_choice}")
         return final_choice, 5 * [True]

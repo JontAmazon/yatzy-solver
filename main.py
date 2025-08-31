@@ -31,13 +31,13 @@ scoreboard = {
     "yatzy": None, 
 }
 while turns_left:
-    yprint(f"\n\n\n\n\n New turn. turns_left: {turns_left}")
-    yprint(f"_____________________________________________")
+    yprint(f"\n\n\n\n New turn. Turns left: {turns_left}")
+    yprint(f"___________________________________________")
     values = 5 * [None]
     save = 5 * [False]
     rolls_left = 3
     while rolls_left:
-        pprint(f"\n\n\n Roll #{rolls_left - 2*(rolls_left-2)}")
+        pprint(f"\n\n Roll #{rolls_left - 2*(rolls_left-2)}")
         values = roll(values, save)
         rolls_left -= 1
         current_choices = get_choices(values, scoreboard)

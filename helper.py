@@ -21,7 +21,10 @@ def roll(values, save):
     # print(f"rolling the dies...")
     # print(f"old values: {values}")
     # print(f"save: {save}")
-    pprint(f"Values: {sorted(new_values)}")
+    
+    # pprint(f"Values: {sorted(new_values)}")
+    debug_print(f"Values: {sorted(new_values)}")
+    
     return new_values
 
 

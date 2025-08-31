@@ -87,11 +87,12 @@ print(f"fraction bonus achieved: {sum(bonus_achieved) / nbr_games}")
 
 
 
-
+"""
 - main_1000: add more statistics:
     - average for each combo
     - plot histogram for final scores
     - plot histogram for each combo
+"""
 
 
 
