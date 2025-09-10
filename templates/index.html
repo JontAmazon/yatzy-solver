@@ -18,8 +18,6 @@
       font-family: monospace;
     }
   </style>
-  <!-- Load ansi_up to handle color prints-->
-  <script src="https://cdn.jsdelivr.net/npm/ansi_up@5.2.1/ansi_up.min.js"></script>
 </head>
 
 <body>
@@ -31,10 +29,8 @@
     <li>Multiply the difference by a <b>weight function</b>. This helps to prioritize e.g. the upper half, to get the bonus.</li>
     <li>Use the max value to determine which dice to save.</li>
   </ol>
-  <p>Average score: 229</p>
-  <p>Overall, it scores decently, probably better than many humans, but sometimes makes stupid decisions.</p>
-
-  <button onclick="runScript()">Run main.py</button>
+  <p>It scores decently, probably better than most humans, but sometimes makes stupid decisions. <b>Average score: 229</b></p>
+  <button onclick="runScript()">Run Simulation</button>
 
   <div id="output"></div>
 
@@ -46,22 +42,39 @@
   </div>
 
   <script>
-    const ansi_up = new AnsiUp();
 
-    async function runScript() {
-      const outputDiv = document.getElementById("output");
-      outputDiv.innerText = "Running...";
+// Function to strip ANSI escape codes (strip color prints)
+function stripAnsi(text) {
+  return text.replace(/\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])/g, '');
+}
 
-      try {
-        let res = await fetch("/run", { method: "POST" });
-        let data = await res.json();
+async function runScript() {
+  const outputDiv = document.getElementById("output");
+  outputDiv.innerText = "Running...";
 
-        // Convert ANSI codes to HTML and display
-        outputDiv.innerHTML = ansi_up.ansi_to_html(data.output);
-      } catch (err) {
-        outputDiv.innerText = "Error: " + err;
-      }
-    }
+  try {
+    let res = await fetch("/run", { method: "POST" });
+    let data = await res.json();
+
+    let text = data.output;
+    text = stripAnsi(text);
+
+    // Scoreboard: turn JSON into a table
+    let html = text.replace(/scoreboard:\s+({[\s\S]*?})/g, (match, objStr) => {
+      let obj = JSON.parse(objStr);
+      let rows = Object.entries(obj).map(
+        ([k, v]) => `<tr><td>${k}</td><td style="width:30px; text-align:center">${v === null ? "" : v}</td></tr>`
+      ).join("");
+      return `scoreboard:
+              <table border="1" style="border-collapse:collapse; margin:5px 0;">
+                ${rows}
+              </table>`;
+    });
+    outputDiv.innerHTML = html;
+  } catch (err) {
+    outputDiv.innerText = "Error: " + err;
+  }
+}
   </script>
 </body>
 </html>
