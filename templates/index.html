@@ -22,24 +22,24 @@
 
 <body>
   <h1>Yatzy Simulator</h1>
-  <p>Heuristic-based algorithm for Yatzy:</p>
+  <p><b>Heuristic-based algorithm for Yatzy:</b></p>
+  <p>For each of the 15 combinations that are possible to aim for:</p>
   <ol>
-    <li>For each of the 15 things that are possible to aim for, estimate an <b>expected score</b> if aiming for that.</li>
-    <li>From the expected score, subtract a <b>cost function</b>. (The cost function is what you hope to get for each combination, kind of.)</li>
-    <li>Multiply the difference by a <b>weight function</b>. This helps to prioritize e.g. the upper half, to get the bonus.</li>
-    <li>Use the max value to determine which dice to save.</li>
+    <li>Estimate an <b>expected score</b> if aiming solely for that.</li>
+    <li>Subtract the <b>cost function</b>. (The cost function represents what you hope to get for each combination, kind of.)</li>
+    <li>Multiply this difference by the <b>weight function</b>. This helps to prioritize e.g. the upper half, to get the bonus.</li>
   </ol>
+  <p>The max value determines which combination to aim for (and which dice to save).
+    <a href="https://github.com/JontAmazon/yatzy-solver/tree/main/solvers/solver2" target="_blank">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="18" class="mr-2">
+      View on GitHub
+    </a>
+  </p>
+    
   <p>It scores decently, probably better than most humans, but sometimes makes stupid decisions. <b>Average score: 229</b></p>
   <button onclick="runScript()">Run Simulation</button>
 
   <div id="output"></div>
-
-  <div>
-    <a href="https://github.com/JontAmazon/yatzy-solver" target="_blank">
-      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="24" class="mr-2">
-      View on GitHub
-    </a>
-  </div>
 
   <script>
 
